@@ -1,16 +1,16 @@
 string = 'Python from stretch'
-other = string[:]
+print(len(string))
+string = string.upper()
+print(string)
+string = string.lower()
+print(string)
 
-print(string[0])
-print(string[-1])
-print(string[0:10])
-print(string[:10])
-print(other)
+print(string.find('janak'))
 
 
-name = 'Jennifer'
-print(name[1:-1])
+print(string.replace('p','J'))
 
+print('python' in string)
 
 
 
