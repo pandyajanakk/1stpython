@@ -1,4 +1,4 @@
-print('janak pandya')
-print(10 * 100)
-print(10 * 1000)
-print(10 * 10000)
+yob = input('Please enter year of birth');
+age = 2020 - int(yob);
+print('age is')
+print(age)
