@@ -1,4 +1,4 @@
-yob = input('Please enter year of birth');
-age = 2020 - int(yob);
-print('age is')
-print(age)
+wip = input('Please enter weight in pound');
+wikg = 0.45 * float(wip)
+print('wight in kg is' )
+print(wikg)
